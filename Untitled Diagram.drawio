@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-15T10:49:27.992Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="NZyxgVQ6lGDkAkQQaUry" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-15T12:35:39.634Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="TgAHGpAGNh-Q0OQG4iQ1" version="15.7.3" type="github">
   <diagram id="Cuy8SSrBaXIe2WgJ0xsk" name="Page-1">
-    <mxGraphModel dx="1278" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="1333" dy="499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -67,6 +67,57 @@
         </mxCell>
         <mxCell id="nMDgOZrZQoWDls4aoF4L-26" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;Mainframe Student-Grade-Accessment-System&lt;/b&gt;&lt;/font&gt;&lt;br&gt;[Software System]&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Stores all of the core Student-Grade-Accessment-System information.&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=9;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
           <mxGeometry x="950" y="535" width="210" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="nMDgOZrZQoWDls4aoF4L-29" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;API Application&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 9px&quot;&gt;[Comtainer: Java and Spring MVC]&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;span&gt;Provides Internet Student-Grade-Accessment-System information via a JSON/HTTPS API.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=12;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="240" y="840" width="210" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="nMDgOZrZQoWDls4aoF4L-30" value="" style="swimlane;startSize=0;rounded=0;sketch=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="220" y="810" width="250" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="nMDgOZrZQoWDls4aoF4L-31" value="&lt;font style=&quot;font-size: 9px&quot;&gt;&lt;b&gt;Apache Tomcat&lt;/b&gt;&lt;br&gt;[Deployment Node: Apache Tomcat 9.x]&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="nMDgOZrZQoWDls4aoF4L-30">
+          <mxGeometry x="20" y="185" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nMDgOZrZQoWDls4aoF4L-32" value="" style="swimlane;startSize=0;rounded=0;sketch=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="200" y="790" width="290" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="nMDgOZrZQoWDls4aoF4L-33" value="&lt;b&gt;Student-Grade-Accessment-System-api***&lt;/b&gt;&lt;br&gt;[Deployment Node: Windows 10]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;" vertex="1" parent="nMDgOZrZQoWDls4aoF4L-32">
+          <mxGeometry x="15" y="280" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nMDgOZrZQoWDls4aoF4L-35" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Database&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 9px&quot;&gt;[Container: Mysql Database Schema]&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Stores students&#39; commits number, added lines number, deleted lines number, every project information, etc.&lt;/font&gt;&amp;nbsp;" style="shape=datastore;whiteSpace=wrap;html=1;fontSize=9;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="710" y="825" width="220" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="nMDgOZrZQoWDls4aoF4L-36" value="" style="swimlane;startSize=0;rounded=0;sketch=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="680" y="810" width="280" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="nMDgOZrZQoWDls4aoF4L-37" value="&lt;b&gt;Mysql - Primary&lt;/b&gt;&lt;br&gt;[Deployment Node: Mysql]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;" vertex="1" parent="nMDgOZrZQoWDls4aoF4L-36">
+          <mxGeometry x="10" y="190" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nMDgOZrZQoWDls4aoF4L-38" value="" style="swimlane;startSize=0;rounded=0;sketch=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="660" y="790" width="320" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="nMDgOZrZQoWDls4aoF4L-39" value="&lt;b&gt;Student-Grade-Accessment-System-db01&lt;/b&gt;&lt;br&gt;[Deployment Node: Windows 10]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;" vertex="1" parent="nMDgOZrZQoWDls4aoF4L-38">
+          <mxGeometry x="20" y="280" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nMDgOZrZQoWDls4aoF4L-40" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Web Application&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;font&gt;&lt;font size=&quot;1&quot;&gt;[Container:Java and Spring MVC]&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Delivers the static content and the Internet Student-Grade-Accessment-System single page application.&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1280" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="nMDgOZrZQoWDls4aoF4L-41" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Single-Page Application&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 9px&quot;&gt;[Container: JavaScript]&lt;/font&gt;&lt;br&gt;&lt;br&gt;Provides all of the Internet Student-Grade-Accessment-System information to customers via their web browser." style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1280" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="nMDgOZrZQoWDls4aoF4L-42" value="" style="swimlane;startSize=0;rounded=0;sketch=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1260" width="250" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="nMDgOZrZQoWDls4aoF4L-43" value="&lt;b&gt;Web Browser&lt;/b&gt;&lt;br&gt;[Deployment Node: Chrome, Firefox or Edge]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;" vertex="1" parent="nMDgOZrZQoWDls4aoF4L-42">
+          <mxGeometry x="20" y="170" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nMDgOZrZQoWDls4aoF4L-44" value="" style="swimlane;startSize=0;rounded=0;sketch=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1240" width="310" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="nMDgOZrZQoWDls4aoF4L-45" value="&lt;b&gt;Customer&#39;s computer&lt;/b&gt;&lt;br&gt;[Deployment Node: Microsoft Windows or Apple mac05]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;" vertex="1" parent="nMDgOZrZQoWDls4aoF4L-44">
+          <mxGeometry x="30" y="260" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nMDgOZrZQoWDls4aoF4L-46" value="" style="swimlane;startSize=0;rounded=0;sketch=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1260" width="250" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
